@@ -1,0 +1,23 @@
+.body {
+    display: flex;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#hexCode {
+    text-align: center;
+}
+
+img#testHex {
+    width: 100%;
+    height: 70vh;
+}
+
+#schemeColor {
+    display: flex;
+    padding: 1em 0;
+
+}
