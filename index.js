@@ -5,7 +5,6 @@ const hexHtml = document.getElementById('hexdiv');
 const getColorBtn = document.getElementById('get-color');
 const modeDropDown = document.getElementById('colorDropDown');
 
-console.log('yu',inputColor.value); 
 
 /*Default */
 fetch('https://www.thecolorapi.com/scheme?hex=000000&mode=monochrome')
@@ -43,7 +42,6 @@ getColorBtn.addEventListener('click', () => {
             <img id="testHex" src=${ele.image.bare}> 
             <p id="hexCode"> ${ele.hex.value}</p>
             </div> `;
-                // navigator.clipboard.writeText(ele.hex.value);
             }
  
             schemeImg.innerHTML = `${html}`
